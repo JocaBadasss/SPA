@@ -1,0 +1,134 @@
+/* Geral */
+* {
+  margin: 0;
+  box-sizing: border-box;
+  padding: 0;
+}
+
+:root {
+  font-size: 62.5%;
+}
+
+body {
+  min-height: 100vh;
+
+  background-repeat: round;
+
+  display: grid;
+
+  font-family: "Roboto", sans-serif;
+  font-weight: 700;
+  font-size: 2.5rem;
+  line-height: 6rem;
+  color: #ffffff;
+}
+
+p {
+  height: 20.3rem;
+  width: 64.8rem;
+
+  margin-top: 1.6rem;
+
+  font-size: 1.8rem;
+  font-weight: 400;
+  line-height: 2.9rem;
+}
+
+/* Index */
+/* .index {
+  background-image: url("/images/home.png");
+} */
+
+.index a {
+  text-decoration: none;
+
+  font-family: "Roboto";
+  font-style: normal;
+  font-weight: 400;
+  font-size: 2.2rem;
+  line-height: 2.2rem;
+  color: #c4c4cc;
+}
+
+nav {
+  height: 12.2rem;
+
+  display: flex;
+  align-items: center;
+  gap: 3.2rem;
+
+  padding-left: 7.2rem;
+}
+
+.index .active {
+  font-weight: 700;
+  font-size: 24px;
+  line-height: 22px;
+  color: #ffffff;
+}
+
+/* Home */
+.page1 {
+  background-image: url("/images/home.png");
+}
+
+.home {
+  background-image: url("/images/home.png");
+
+  align-content: center;
+  justify-content: center;
+
+  text-align: center;
+
+  color: #e1e1e6;
+}
+
+.home button {
+  width: 19.5rem;
+  height: 4.8rem;
+
+  border: 0.2rem solid #ffffff;
+  border-radius: 0.5rem;
+  background: transparent;
+
+  font-family: "Roboto", sans-serif;
+  font-weight: bold;
+  line-height: 2.8rem;
+  font-size: 1.4rem;
+  color: #ffffff;
+
+  cursor: pointer;
+
+  margin-top: 2.4rem;
+}
+
+/* Universe */
+.page2 {
+  background-image: url("/images/universe.png");
+}
+
+.universe {
+  align-content: center;
+}
+
+/* Exploration */
+.page3 {
+  background-image: url("/images/exploration.png");
+}
+
+.exploration {
+  align-content: center;
+}
+
+/* Multiplos */
+
+.universe.container,
+.exploration.container {
+  padding-left: 10.2rem;
+}
+
+.home.container,
+.universe.container,
+.exploration.container {
+  background: transparent;
+}
